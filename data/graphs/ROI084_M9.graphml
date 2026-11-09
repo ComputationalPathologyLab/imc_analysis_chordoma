@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="g_roi" for="graph" attr.name="roi" attr.type="string"/>
+<key id="g_key_label" for="graph" attr.name="key_label" attr.type="string"/>
+<key id="g_patient_id" for="graph" attr.name="patient_id" attr.type="string"/>
+<key id="g_core" for="graph" attr.name="core" attr.type="string"/>
+<key id="g_sample_type" for="graph" attr.name="sample_type" attr.type="string"/>
+<key id="g_mcd_label" for="graph" attr.name="mcd_label" attr.type="string"/>
+<key id="g_acquired_position" for="graph" attr.name="acquired_position" attr.type="string"/>
+<key id="g_repeat_of" for="graph" attr.name="repeat_of" attr.type="string"/>
+<graph edgedefault="undirected"><data key="g_roi">ROI084_M9</data><data key="g_key_label">M9</data><data key="g_patient_id">M</data><data key="g_core">9</data><data key="g_sample_type">Tumour border</data><data key="g_mcd_label">I3</data><data key="g_acquired_position">I3</data><data key="g_repeat_of"></data></graph></graphml>

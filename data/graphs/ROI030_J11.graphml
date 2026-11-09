@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d49" for="edge" attr.name="Distance" attr.type="double"/>
+<key id="d48" for="node" attr.name="eccentricity" attr.type="double"/>
+<key id="d47" for="node" attr.name="axis_minor_length" attr.type="double"/>
+<key id="d46" for="node" attr.name="axis_major_length" attr.type="double"/>
+<key id="d45" for="node" attr.name="centroid-1" attr.type="double"/>
+<key id="d44" for="node" attr.name="centroid-0" attr.type="double"/>
+<key id="d43" for="node" attr.name="area" attr.type="double"/>
+<key id="d42" for="node" attr.name="80ArAr" attr.type="double"/>
+<key id="d41" for="node" attr.name="aSMA" attr.type="double"/>
+<key id="d40" for="node" attr.name="208Pb" attr.type="double"/>
+<key id="d39" for="node" attr.name="DNA2" attr.type="double"/>
+<key id="d38" for="node" attr.name="DNA1" attr.type="double"/>
+<key id="d37" for="node" attr.name="CD80" attr.type="double"/>
+<key id="d36" for="node" attr.name="GATA3" attr.type="double"/>
+<key id="d35" for="node" attr.name="CD72a" attr.type="double"/>
+<key id="d34" for="node" attr.name="Ki67" attr.type="double"/>
+<key id="d33" for="node" attr.name="CD10" attr.type="double"/>
+<key id="d32" for="node" attr.name="CD21" attr.type="double"/>
+<key id="d31" for="node" attr.name="CD3" attr.type="double"/>
+<key id="d30" for="node" attr.name="CD56" attr.type="double"/>
+<key id="d29" for="node" attr.name="GranzymeB" attr.type="double"/>
+<key id="d28" for="node" attr.name="PD1" attr.type="double"/>
+<key id="d27" for="node" attr.name="S100" attr.type="double"/>
+<key id="d26" for="node" attr.name="ERG" attr.type="double"/>
+<key id="d25" for="node" attr.name="CD8" attr.type="double"/>
+<key id="d24" for="node" attr.name="CD86" attr.type="double"/>
+<key id="d23" for="node" attr.name="CD11c" attr.type="double"/>
+<key id="d22" for="node" attr.name="Brachiury" attr.type="double"/>
+<key id="d21" for="node" attr.name="CTLA4" attr.type="double"/>
+<key id="d20" for="node" attr.name="CD4" attr.type="double"/>
+<key id="d19" for="node" attr.name="FoxP3" attr.type="double"/>
+<key id="d18" for="node" attr.name="TIM3" attr.type="double"/>
+<key id="d17" for="node" attr.name="LAG3" attr.type="double"/>
+<key id="d16" for="node" attr.name="CD66b" attr.type="double"/>
+<key id="d15" for="node" attr.name="MHC_II" attr.type="double"/>
+<key id="d14" for="node" attr.name="PDL1" attr.type="double"/>
+<key id="d13" for="node" attr.name="CD45RO" attr.type="double"/>
+<key id="d12" for="node" attr.name="CD163" attr.type="double"/>
+<key id="d11" for="node" attr.name="CD44" attr.type="double"/>
+<key id="d10" for="node" attr.name="BCL2" attr.type="double"/>
+<key id="d9" for="node" attr.name="Tbet" attr.type="double"/>
+<key id="d8" for="node" attr.name="CD31" attr.type="double"/>
+<key id="d7" for="node" attr.name="CD47" attr.type="double"/>
+<key id="d6" for="node" attr.name="CD138" attr.type="double"/>
+<key id="d5" for="node" attr.name="CD68" attr.type="double"/>
+<key id="d4" for="node" attr.name="138Ba" attr.type="double"/>
+<key id="d3" for="node" attr.name="134Xe" attr.type="double"/>
+<key id="d2" for="node" attr.name="131Xe" attr.type="double"/>
+<key id="d1" for="node" attr.name="127I" attr.type="double"/>
+<key id="d0" for="node" attr.name="CD20" attr.type="double"/>
+<key id="g_roi" for="graph" attr.name="roi" attr.type="string"/>
+<key id="g_key_label" for="graph" attr.name="key_label" attr.type="string"/>
+<key id="g_patient_id" for="graph" attr.name="patient_id" attr.type="string"/>
+<key id="g_core" for="graph" attr.name="core" attr.type="string"/>
+<key id="g_sample_type" for="graph" attr.name="sample_type" attr.type="string"/>
+<key id="g_mcd_label" for="graph" attr.name="mcd_label" attr.type="string"/>
+<key id="g_acquired_position" for="graph" attr.name="acquired_position" attr.type="string"/>
+<key id="g_repeat_of" for="graph" attr.name="repeat_of" attr.type="string"/>
+<graph edgedefault="undirected"><data key="g_roi">ROI030_J11</data><data key="g_key_label">J11</data><data key="g_patient_id">J</data><data key="g_core">11</data><data key="g_sample_type">Non-neoplastic</data><data key="g_mcd_label">K6</data><data key="g_acquired_position">K6</data><data key="g_repeat_of"></data><node id="1">
+  <data key="d0">0.0309890003905895</data>
+  <data key="d1">19.6642305252231</data>
+  <data key="d2">219.34971585179963</data>
+  <data key="d3">106.24408718461169</data>
+  <data key="d4">0.4208844232735042</data>
+  <data key="d5">0.5201496683658522</data>
+  <data key="d6">0.1446948057764777</data>
+  <data key="d7">0.1417594217045765</data>
+  <data key="d8">0.1094155138451465</data>
+  <data key="d9">0.1181744311382478</data>
+  <data key="d10">0.4593015205616669</data>
+  <data key="d11">0.1053779520173296</data>
+  <data key="d12">0.1526810336807311</data>
+  <data key="d13">0.1437393346415345</data>
+  <data key="d14">0.1669090737936716</data>
+  <data key="d15">0.1574566055218859</data>
+  <data key="d16">0.1170937071319066</data>
+  <data key="d17">0.1238046053137613</data>
+  <data key="d18">0.397899831071744</data>
+  <data key="d19">0.1134427580052533</data>
+  <data key="d20">0.1612171489018355</data>
+  <data key="d21">0.0830867906381431</data>
+  <data key="d22">0.0471301328576819</data>
+  <data key="d23">0.0996175237033803</data>
+  <data key="d24">0.0445374849614505</data>
+  <data key="d25">0.2188617593401679</data>
+  <data key="d26">0.0370335133912523</data>
+  <data key="d27">0.5815128811639304</data>
+  <data key="d28">0.0447930544840225</data>
+  <data key="d29">0.0553518599533277</data>
+  <data key="d30">0.4964852924155756</data>
+  <data key="d31">0.0497710689473981</data>
+  <data key="d32">0.0447747817603975</data>
+  <data key="d33">0.0240724565582448</data>
+  <data key="d34">0.0181895510692279</data>
+  <data key="d35">0.0456868039497629</data>
+  <data key="d36">0.0589282776872978</data>
+  <data key="d37">0.1655654993567632</data>
+  <data key="d38">0.136222638809735</data>
+  <data key="d39">0.2050242403496772</data>
+  <data key="d40">0.2738388186143133</data>
+  <data key="d41">0.3630567324459102</data>
+  <data key="d42">6511.06768457179</data>
+  <data key="d43">1322.0</data>
+  <data key="d44">705.5514372163389</data>
+  <data key="d45">703.3721633888049</data>
+  <data key="d46">46.41060046586892</data>
+  <data key="d47">36.41287672113391</data>
+  <data key="d48">0.6200262955755145</data>
+</node>
+<node id="2">
+  <data key="d0">0.027255394285725</data>
+  <data key="d1">19.79696482410812</data>
+  <data key="d2">219.16432324715657</data>
+  <data key="d3">105.5239785336496</data>
+  <data key="d4">0.4000689360311686</data>
+  <data key="d5">0.2053921283115439</data>
+  <data key="d6">0.1376401934023094</data>
+  <data key="d7">0.1355786429755332</data>
+  <data key="d8">0.1108208501027659</data>
+  <data key="d9">0.0915106052901887</data>
+  <data key="d10">0.3468175731862561</data>
+  <data key="d11">0.1074607215146498</data>
+  <data key="d12">0.1373140477845745</data>
+  <data key="d13">0.1306831142457399</data>
+  <data key="d14">0.150897899439441</data>
+  <data key="d15">0.1254495063913948</data>
+  <data key="d16">0.1106553017497978</data>
+  <data key="d17">0.1057935932310678</data>
+  <data key="d18">0.3134337886824586</data>
+  <data key="d19">0.1083504253177232</data>
+  <data key="d20">0.1507528788895101</data>
+  <data key="d21">0.084826000824502</data>
+  <data key="d22">0.026977803598168</data>
+  <data key="d23">0.0786393293037941</data>
+  <data key="d24">0.0449510702889086</data>
+  <data key="d25">0.4173456604854302</data>
+  <data key="d26">0.0403401373832639</data>
+  <data key="d27">0.4143398930354419</data>
+  <data key="d28">0.0329201363152988</data>
+  <data key="d29">0.0531859125272469</data>
+  <data key="d30">0.4241610804140659</data>
+  <data key="d31">0.0347143885452077</data>
+  <data key="d32">0.0323463416273509</data>
+  <data key="d33">0.0217820616544849</data>
+  <data key="d34">0.0196742802263221</data>
+  <data key="d35">0.0176751720969394</data>
+  <data key="d36">0.0494755908457731</data>
+  <data key="d37">0.1268174166801155</data>
+  <data key="d38">0.1943899405899868</data>
+  <data key="d39">0.3027152360263874</data>
+  <data key="d40">0.3273978993273733</data>
+  <data key="d41">0.4401427884850817</data>
+  <data key="d42">6496.446675337222</data>
+  <data key="d43">1302.0</data>
+  <data key="d44">750.5061443932411</data>
+  <data key="d45">677.4861751152074</data>
+  <data key="d46">52.80307345524086</data>
+  <data key="d47">31.717611618652608</data>
+  <data key="d48">0.7994915194769159</data>
+</node>
+<edge source="1" target="2">
+  <data key="d49">nan</data>
+</edge>
+</graph></graphml>
