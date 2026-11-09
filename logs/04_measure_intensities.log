@@ -1,0 +1,323 @@
+WORKFLOW_DIR
+/Users/rashid/1_IMC_Analysis/11_Vincenzo/261107_CH_Cellpose
+
+DATA_DIR
+/Users/rashid/1_IMC_Analysis/11_Vincenzo/261107_CH_Cellpose/data
+
+COMMAND
+docker run --rm --platform linux/amd64 -v /Users/rashid/1_IMC_Analysis/11_Vincenzo/261107_CH_Cellpose/data:/data -u 502:20 ghcr.io/bodenmillergroup/steinbock:0.16.1 measure intensities --mmap
+
+STDOUT
+
+
+STDERR
+2026-11-09 03:59:34,492 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI001_D13.tiff (uint32) is not uint16
+2026-11-09 03:59:34,878 INFO steinbock - intensities/ROI001_D13.csv
+2026-11-09 03:59:34,881 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI002_H8.tiff (uint32) is not uint16
+2026-11-09 03:59:35,359 INFO steinbock - intensities/ROI002_H8.csv
+2026-11-09 03:59:35,363 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI003_I5.tiff (uint32) is not uint16
+2026-11-09 03:59:35,830 INFO steinbock - intensities/ROI003_I5.csv
+2026-11-09 03:59:35,834 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI004_B11.tiff (uint32) is not uint16
+2026-11-09 03:59:36,215 INFO steinbock - intensities/ROI004_B11.csv
+2026-11-09 03:59:36,218 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI005_E2.tiff (uint32) is not uint16
+2026-11-09 03:59:36,690 INFO steinbock - intensities/ROI005_E2.csv
+2026-11-09 03:59:36,694 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI006_H15.tiff (uint32) is not uint16
+2026-11-09 03:59:37,114 INFO steinbock - intensities/ROI006_H15.csv
+2026-11-09 03:59:37,119 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI007_C2.tiff (uint32) is not uint16
+2026-11-09 03:59:37,492 INFO steinbock - intensities/ROI007_C2.csv
+2026-11-09 03:59:37,495 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI008_E15.tiff (uint32) is not uint16
+2026-11-09 03:59:37,959 INFO steinbock - intensities/ROI008_E15.csv
+2026-11-09 03:59:37,964 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI009_J11.tiff (uint32) is not uint16
+2026-11-09 03:59:38,337 INFO steinbock - intensities/ROI009_J11.csv
+2026-11-09 03:59:38,340 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI010_H5.tiff (uint32) is not uint16
+2026-11-09 03:59:38,764 INFO steinbock - intensities/ROI010_H5.csv
+2026-11-09 03:59:38,767 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI012_A9.tiff (uint32) is not uint16
+2026-11-09 03:59:39,166 INFO steinbock - intensities/ROI012_A9.csv
+2026-11-09 03:59:39,170 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI013_F11.tiff (uint32) is not uint16
+2026-11-09 03:59:39,554 INFO steinbock - intensities/ROI013_F11.csv
+2026-11-09 03:59:39,557 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI014_D10.tiff (uint32) is not uint16
+2026-11-09 03:59:40,026 INFO steinbock - intensities/ROI014_D10.csv
+2026-11-09 03:59:40,030 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI015_B13.tiff (uint32) is not uint16
+2026-11-09 03:59:40,454 INFO steinbock - intensities/ROI015_B13.csv
+2026-11-09 03:59:40,458 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI016_A13.tiff (uint32) is not uint16
+2026-11-09 03:59:40,893 INFO steinbock - intensities/ROI016_A13.csv
+2026-11-09 03:59:40,897 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI017_D6.tiff (uint32) is not uint16
+2026-11-09 03:59:41,375 INFO steinbock - intensities/ROI017_D6.csv
+2026-11-09 03:59:41,379 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI018_H4.tiff (uint32) is not uint16
+2026-11-09 03:59:41,840 INFO steinbock - intensities/ROI018_H4.csv
+2026-11-09 03:59:41,844 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI019_E4.tiff (uint32) is not uint16
+2026-11-09 03:59:42,312 INFO steinbock - intensities/ROI019_E4.csv
+2026-11-09 03:59:42,319 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI020_J6.tiff (uint32) is not uint16
+2026-11-09 03:59:42,734 INFO steinbock - intensities/ROI020_J6.csv
+2026-11-09 03:59:42,738 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI021_G1.tiff (uint32) is not uint16
+2026-11-09 03:59:43,170 INFO steinbock - intensities/ROI021_G1.csv
+2026-11-09 03:59:43,174 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI022_H1.tiff (uint32) is not uint16
+2026-11-09 03:59:43,578 INFO steinbock - intensities/ROI022_H1.csv
+2026-11-09 03:59:43,581 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI023_G10.tiff (uint32) is not uint16
+2026-11-09 03:59:44,006 INFO steinbock - intensities/ROI023_G10.csv
+2026-11-09 03:59:44,010 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI024_H11.tiff (uint32) is not uint16
+2026-11-09 03:59:44,400 INFO steinbock - intensities/ROI024_H11.csv
+2026-11-09 03:59:44,403 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI025_C7.tiff (uint32) is not uint16
+2026-11-09 03:59:44,852 INFO steinbock - intensities/ROI025_C7.csv
+2026-11-09 03:59:44,857 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI026_C4.tiff (uint32) is not uint16
+2026-11-09 03:59:45,282 INFO steinbock - intensities/ROI026_C4.csv
+2026-11-09 03:59:45,286 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI027_B5.tiff (uint32) is not uint16
+2026-11-09 03:59:45,737 INFO steinbock - intensities/ROI027_B5.csv
+2026-11-09 03:59:45,741 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI028_J8.tiff (uint32) is not uint16
+2026-11-09 03:59:46,167 INFO steinbock - intensities/ROI028_J8.csv
+2026-11-09 03:59:46,171 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI029_K5.tiff (uint32) is not uint16
+2026-11-09 03:59:46,582 INFO steinbock - intensities/ROI029_K5.csv
+2026-11-09 03:59:46,587 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI030_K6.tiff (uint32) is not uint16
+2026-11-09 03:59:46,944 INFO steinbock - intensities/ROI030_K6.csv
+2026-11-09 03:59:46,948 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI031_E11.tiff (uint32) is not uint16
+2026-11-09 03:59:47,336 INFO steinbock - intensities/ROI031_E11.csv
+2026-11-09 03:59:47,339 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI032_C15.tiff (uint32) is not uint16
+2026-11-09 03:59:47,755 INFO steinbock - intensities/ROI032_C15.csv
+2026-11-09 03:59:47,758 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI033_B15.tiff (uint32) is not uint16
+2026-11-09 03:59:48,171 INFO steinbock - intensities/ROI033_B15.csv
+2026-11-09 03:59:48,175 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI034_C12.tiff (uint32) is not uint16
+2026-11-09 03:59:48,608 INFO steinbock - intensities/ROI034_C12.csv
+2026-11-09 03:59:48,613 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI035_G13.tiff (uint32) is not uint16
+2026-11-09 03:59:49,034 INFO steinbock - intensities/ROI035_G13.csv
+2026-11-09 03:59:49,037 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI036_F3.tiff (uint32) is not uint16
+2026-11-09 03:59:49,403 INFO steinbock - intensities/ROI036_F3.csv
+2026-11-09 03:59:49,408 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI037_F6.tiff (uint32) is not uint16
+2026-11-09 03:59:49,839 INFO steinbock - intensities/ROI037_F6.csv
+2026-11-09 03:59:49,844 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI038_I10.tiff (uint32) is not uint16
+2026-11-09 03:59:50,280 INFO steinbock - intensities/ROI038_I10.csv
+2026-11-09 03:59:50,286 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI039_F10.tiff (uint32) is not uint16
+2026-11-09 03:59:50,722 INFO steinbock - intensities/ROI039_F10.csv
+2026-11-09 03:59:50,725 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI040_B9.tiff (uint32) is not uint16
+2026-11-09 03:59:51,149 INFO steinbock - intensities/ROI040_B9.csv
+2026-11-09 03:59:51,154 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI041_B10.tiff (uint32) is not uint16
+2026-11-09 03:59:51,617 INFO steinbock - intensities/ROI041_B10.csv
+2026-11-09 03:59:51,620 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI042_B6.tiff (uint32) is not uint16
+2026-11-09 03:59:52,085 INFO steinbock - intensities/ROI042_B6.csv
+2026-11-09 03:59:52,089 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI043_A7.tiff (uint32) is not uint16
+2026-11-09 03:59:52,599 INFO steinbock - intensities/ROI043_A7.csv
+2026-11-09 03:59:52,604 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI044_K1.tiff (uint32) is not uint16
+2026-11-09 03:59:52,988 INFO steinbock - intensities/ROI044_K1.csv
+2026-11-09 03:59:52,991 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI045_B4.tiff (uint32) is not uint16
+2026-11-09 03:59:53,416 INFO steinbock - intensities/ROI045_B4.csv
+2026-11-09 03:59:53,421 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI046_C5.tiff (uint32) is not uint16
+2026-11-09 03:59:53,863 INFO steinbock - intensities/ROI046_C5.csv
+2026-11-09 03:59:53,869 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI047_D3.tiff (uint32) is not uint16
+2026-11-09 03:59:54,250 INFO steinbock - intensities/ROI047_D3.csv
+2026-11-09 03:59:54,252 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI048_E14.tiff (uint32) is not uint16
+2026-11-09 03:59:54,643 INFO steinbock - intensities/ROI048_E14.csv
+2026-11-09 03:59:54,650 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI049_F8.tiff (uint32) is not uint16
+2026-11-09 03:59:55,117 INFO steinbock - intensities/ROI049_F8.csv
+2026-11-09 03:59:55,123 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI050_G5.tiff (uint32) is not uint16
+2026-11-09 03:59:55,570 INFO steinbock - intensities/ROI050_G5.csv
+2026-11-09 03:59:55,575 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI051_H6.tiff (uint32) is not uint16
+2026-11-09 03:59:56,018 INFO steinbock - intensities/ROI051_H6.csv
+2026-11-09 03:59:56,022 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI052_I4.tiff (uint32) is not uint16
+2026-11-09 03:59:56,465 INFO steinbock - intensities/ROI052_I4.csv
+2026-11-09 03:59:56,468 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI053_J5.tiff (uint32) is not uint16
+2026-11-09 03:59:56,910 INFO steinbock - intensities/ROI053_J5.csv
+2026-11-09 03:59:56,918 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI054_K2.tiff (uint32) is not uint16
+2026-11-09 03:59:57,347 INFO steinbock - intensities/ROI054_K2.csv
+2026-11-09 03:59:57,350 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI055_H7.tiff (uint32) is not uint16
+2026-11-09 03:59:57,817 INFO steinbock - intensities/ROI055_H7.csv
+2026-11-09 03:59:57,821 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI056_G7.tiff (uint32) is not uint16
+2026-11-09 03:59:58,248 INFO steinbock - intensities/ROI056_G7.csv
+2026-11-09 03:59:58,252 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI057_F13.tiff (uint32) is not uint16
+2026-11-09 03:59:58,693 INFO steinbock - intensities/ROI057_F13.csv
+2026-11-09 03:59:58,698 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI058_H14.tiff (uint32) is not uint16
+2026-11-09 03:59:59,101 INFO steinbock - intensities/ROI058_H14.csv
+2026-11-09 03:59:59,105 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI059_C8.tiff (uint32) is not uint16
+2026-11-09 03:59:59,562 INFO steinbock - intensities/ROI059_C8.csv
+2026-11-09 03:59:59,569 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI060_D4.tiff (uint32) is not uint16
+2026-11-09 04:00:00,045 INFO steinbock - intensities/ROI060_D4.csv
+2026-11-09 04:00:00,050 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI061_D15.tiff (uint32) is not uint16
+2026-11-09 04:00:00,500 INFO steinbock - intensities/ROI061_D15.csv
+2026-11-09 04:00:00,504 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI062_G14.tiff (uint32) is not uint16
+2026-11-09 04:00:00,915 INFO steinbock - intensities/ROI062_G14.csv
+2026-11-09 04:00:00,918 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI063_J12.tiff (uint32) is not uint16
+2026-11-09 04:00:01,360 INFO steinbock - intensities/ROI063_J12.csv
+2026-11-09 04:00:01,367 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI064_H12.tiff (uint32) is not uint16
+2026-11-09 04:00:01,835 INFO steinbock - intensities/ROI064_H12.csv
+2026-11-09 04:00:01,841 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI065_D8.tiff (uint32) is not uint16
+2026-11-09 04:00:02,264 INFO steinbock - intensities/ROI065_D8.csv
+2026-11-09 04:00:02,270 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI066_C6.tiff (uint32) is not uint16
+2026-11-09 04:00:02,784 INFO steinbock - intensities/ROI066_C6.csv
+2026-11-09 04:00:02,790 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI067_B8.tiff (uint32) is not uint16
+2026-11-09 04:00:03,229 INFO steinbock - intensities/ROI067_B8.csv
+2026-11-09 04:00:03,236 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI068_A8.tiff (uint32) is not uint16
+2026-11-09 04:00:03,662 INFO steinbock - intensities/ROI068_A8.csv
+2026-11-09 04:00:03,667 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI069_H2.tiff (uint32) is not uint16
+2026-11-09 04:00:04,083 INFO steinbock - intensities/ROI069_H2.csv
+2026-11-09 04:00:04,087 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI070_G2.tiff (uint32) is not uint16
+2026-11-09 04:00:04,511 INFO steinbock - intensities/ROI070_G2.csv
+2026-11-09 04:00:04,515 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI071_G11.tiff (uint32) is not uint16
+2026-11-09 04:00:04,917 INFO steinbock - intensities/ROI071_G11.csv
+2026-11-09 04:00:04,920 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI072_D12.tiff (uint32) is not uint16
+2026-11-09 04:00:05,386 INFO steinbock - intensities/ROI072_D12.csv
+2026-11-09 04:00:05,392 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI073_A14.tiff (uint32) is not uint16
+2026-11-09 04:00:05,775 INFO steinbock - intensities/ROI073_A14.csv
+2026-11-09 04:00:05,781 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI074_A15.tiff (uint32) is not uint16
+2026-11-09 04:00:06,205 INFO steinbock - intensities/ROI074_A15.csv
+2026-11-09 04:00:06,209 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI075_E1.tiff (uint32) is not uint16
+2026-11-09 04:00:06,632 INFO steinbock - intensities/ROI075_E1.csv
+2026-11-09 04:00:06,635 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI076_K4.tiff (uint32) is not uint16
+2026-11-09 04:00:06,964 INFO steinbock - intensities/ROI076_K4.csv
+2026-11-09 04:00:06,968 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI077_J10.tiff (uint32) is not uint16
+2026-11-09 04:00:07,408 INFO steinbock - intensities/ROI077_J10.csv
+2026-11-09 04:00:07,412 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI078_I15.tiff (uint32) is not uint16
+2026-11-09 04:00:07,845 INFO steinbock - intensities/ROI078_I15.csv
+2026-11-09 04:00:07,849 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI079_F1.tiff (uint32) is not uint16
+2026-11-09 04:00:08,292 INFO steinbock - intensities/ROI079_F1.csv
+2026-11-09 04:00:08,297 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI080_D7.tiff (uint32) is not uint16
+2026-11-09 04:00:08,802 INFO steinbock - intensities/ROI080_D7.csv
+2026-11-09 04:00:08,808 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI081_A10.tiff (uint32) is not uint16
+2026-11-09 04:00:09,319 INFO steinbock - intensities/ROI081_A10.csv
+2026-11-09 04:00:09,325 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI082_A11.tiff (uint32) is not uint16
+2026-11-09 04:00:09,752 INFO steinbock - intensities/ROI082_A11.csv
+2026-11-09 04:00:09,756 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI083_A1.tiff (uint32) is not uint16
+2026-11-09 04:00:09,964 INFO steinbock - intensities/ROI083_A1.csv
+2026-11-09 04:00:09,968 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI084_I3.tiff (uint32) is not uint16
+2026-11-09 04:00:10,338 INFO steinbock - intensities/ROI084_I3.csv
+2026-11-09 04:00:10,341 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI085_D11.tiff (uint32) is not uint16
+2026-11-09 04:00:10,752 INFO steinbock - intensities/ROI085_D11.csv
+2026-11-09 04:00:10,756 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI086_C11.tiff (uint32) is not uint16
+2026-11-09 04:00:11,175 INFO steinbock - intensities/ROI086_C11.csv
+2026-11-09 04:00:11,178 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI087_C14.tiff (uint32) is not uint16
+2026-11-09 04:00:11,604 INFO steinbock - intensities/ROI087_C14.csv
+2026-11-09 04:00:11,608 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI088_D14.tiff (uint32) is not uint16
+2026-11-09 04:00:12,014 INFO steinbock - intensities/ROI088_D14.csv
+2026-11-09 04:00:12,021 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI089_E13.tiff (uint32) is not uint16
+2026-11-09 04:00:12,480 INFO steinbock - intensities/ROI089_E13.csv
+2026-11-09 04:00:12,483 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI090_F14.tiff (uint32) is not uint16
+2026-11-09 04:00:12,889 INFO steinbock - intensities/ROI090_F14.csv
+2026-11-09 04:00:12,892 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI091_F15.tiff (uint32) is not uint16
+2026-11-09 04:00:13,306 INFO steinbock - intensities/ROI091_F15.csv
+2026-11-09 04:00:13,309 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI092_G15.tiff (uint32) is not uint16
+2026-11-09 04:00:13,736 INFO steinbock - intensities/ROI092_G15.csv
+2026-11-09 04:00:13,743 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI093_I14.tiff (uint32) is not uint16
+2026-11-09 04:00:14,085 INFO steinbock - intensities/ROI093_I14.csv
+2026-11-09 04:00:14,088 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI094_I13.tiff (uint32) is not uint16
+2026-11-09 04:00:14,561 INFO steinbock - intensities/ROI094_I13.csv
+2026-11-09 04:00:14,566 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI095_E5.tiff (uint32) is not uint16
+2026-11-09 04:00:15,005 INFO steinbock - intensities/ROI095_E5.csv
+2026-11-09 04:00:15,010 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI096_E9.tiff (uint32) is not uint16
+2026-11-09 04:00:15,474 INFO steinbock - intensities/ROI096_E9.csv
+2026-11-09 04:00:15,482 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI097_F9.tiff (uint32) is not uint16
+2026-11-09 04:00:15,905 INFO steinbock - intensities/ROI097_F9.csv
+2026-11-09 04:00:15,909 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI098_B12.tiff (uint32) is not uint16
+2026-11-09 04:00:16,364 INFO steinbock - intensities/ROI098_B12.csv
+2026-11-09 04:00:16,369 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI099_E3.tiff (uint32) is not uint16
+2026-11-09 04:00:16,766 INFO steinbock - intensities/ROI099_E3.csv
+2026-11-09 04:00:16,770 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI100_G8.tiff (uint32) is not uint16
+2026-11-09 04:00:17,241 INFO steinbock - intensities/ROI100_G8.csv
+2026-11-09 04:00:17,245 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI101_G6.tiff (uint32) is not uint16
+2026-11-09 04:00:17,721 INFO steinbock - intensities/ROI101_G6.csv
+2026-11-09 04:00:17,725 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI102_D2.tiff (uint32) is not uint16
+2026-11-09 04:00:18,144 INFO steinbock - intensities/ROI102_D2.csv
+2026-11-09 04:00:18,149 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI103_B1.tiff (uint32) is not uint16
+2026-11-09 04:00:18,564 INFO steinbock - intensities/ROI103_B1.csv
+2026-11-09 04:00:18,570 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI104_B14.tiff (uint32) is not uint16
+2026-11-09 04:00:18,973 INFO steinbock - intensities/ROI104_B14.csv
+2026-11-09 04:00:18,976 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI105_C13.tiff (uint32) is not uint16
+2026-11-09 04:00:19,387 INFO steinbock - intensities/ROI105_C13.csv
+2026-11-09 04:00:19,393 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI106_F12.tiff (uint32) is not uint16
+2026-11-09 04:00:19,846 INFO steinbock - intensities/ROI106_F12.csv
+2026-11-09 04:00:19,849 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI107_I12.tiff (uint32) is not uint16
+2026-11-09 04:00:20,294 INFO steinbock - intensities/ROI107_I12.csv
+2026-11-09 04:00:20,297 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI108_H9.tiff (uint32) is not uint16
+2026-11-09 04:00:20,719 INFO steinbock - intensities/ROI108_H9.csv
+2026-11-09 04:00:20,725 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI109_I8.tiff (uint32) is not uint16
+2026-11-09 04:00:21,137 INFO steinbock - intensities/ROI109_I8.csv
+2026-11-09 04:00:21,141 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI110_I7.tiff (uint32) is not uint16
+2026-11-09 04:00:21,599 INFO steinbock - intensities/ROI110_I7.csv
+2026-11-09 04:00:21,603 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI111_I6.tiff (uint32) is not uint16
+2026-11-09 04:00:22,027 INFO steinbock - intensities/ROI111_I6.csv
+2026-11-09 04:00:22,031 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI112_F4.tiff (uint32) is not uint16
+2026-11-09 04:00:22,503 INFO steinbock - intensities/ROI112_F4.csv
+2026-11-09 04:00:22,508 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI113_F7.tiff (uint32) is not uint16
+2026-11-09 04:00:22,970 INFO steinbock - intensities/ROI113_F7.csv
+2026-11-09 04:00:22,974 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI114_D5.tiff (uint32) is not uint16
+2026-11-09 04:00:23,414 INFO steinbock - intensities/ROI114_D5.csv
+2026-11-09 04:00:23,418 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI115_G4.tiff (uint32) is not uint16
+2026-11-09 04:00:23,885 INFO steinbock - intensities/ROI115_G4.csv
+2026-11-09 04:00:23,890 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI116_G3.tiff (uint32) is not uint16
+2026-11-09 04:00:24,291 INFO steinbock - intensities/ROI116_G3.csv
+2026-11-09 04:00:24,295 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI117_G2.tiff (uint32) is not uint16
+2026-11-09 04:00:24,715 INFO steinbock - intensities/ROI117_G2.csv
+2026-11-09 04:00:24,720 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI118_H3.tiff (uint32) is not uint16
+2026-11-09 04:00:25,133 INFO steinbock - intensities/ROI118_H3.csv
+2026-11-09 04:00:25,137 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI119_A12.tiff (uint32) is not uint16
+2026-11-09 04:00:25,556 INFO steinbock - intensities/ROI119_A12.csv
+2026-11-09 04:00:25,559 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI120_H13.tiff (uint32) is not uint16
+2026-11-09 04:00:25,990 INFO steinbock - intensities/ROI120_H13.csv
+2026-11-09 04:00:25,994 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI121_G12.tiff (uint32) is not uint16
+2026-11-09 04:00:26,479 INFO steinbock - intensities/ROI121_G12.csv
+2026-11-09 04:00:26,483 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI122_H10.tiff (uint32) is not uint16
+2026-11-09 04:00:26,949 INFO steinbock - intensities/ROI122_H10.csv
+2026-11-09 04:00:26,954 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI123_I11.tiff (uint32) is not uint16
+2026-11-09 04:00:27,367 INFO steinbock - intensities/ROI123_I11.csv
+2026-11-09 04:00:27,370 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI124_C9.tiff (uint32) is not uint16
+2026-11-09 04:00:27,799 INFO steinbock - intensities/ROI124_C9.csv
+2026-11-09 04:00:27,803 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI125_B2.tiff (uint32) is not uint16
+2026-11-09 04:00:28,293 INFO steinbock - intensities/ROI125_B2.csv
+2026-11-09 04:00:28,297 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI126_C3.tiff (uint32) is not uint16
+2026-11-09 04:00:28,721 INFO steinbock - intensities/ROI126_C3.csv
+2026-11-09 04:00:28,726 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI127_B7.tiff (uint32) is not uint16
+2026-11-09 04:00:29,198 INFO steinbock - intensities/ROI127_B7.csv
+2026-11-09 04:00:29,205 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI128_B3.tiff (uint32) is not uint16
+2026-11-09 04:00:29,612 INFO steinbock - intensities/ROI128_B3.csv
+2026-11-09 04:00:29,616 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI129_E7.tiff (uint32) is not uint16
+2026-11-09 04:00:30,088 INFO steinbock - intensities/ROI129_E7.csv
+2026-11-09 04:00:30,092 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI130_I2.tiff (uint32) is not uint16
+2026-11-09 04:00:30,507 INFO steinbock - intensities/ROI130_I2.csv
+2026-11-09 04:00:30,510 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI131_I1.tiff (uint32) is not uint16
+2026-11-09 04:00:30,964 INFO steinbock - intensities/ROI131_I1.csv
+2026-11-09 04:00:30,969 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI132_E8.tiff (uint32) is not uint16
+2026-11-09 04:00:31,442 INFO steinbock - intensities/ROI132_E8.csv
+2026-11-09 04:00:31,446 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI133_F9.tiff (uint32) is not uint16
+2026-11-09 04:00:31,838 INFO steinbock - intensities/ROI133_F9.csv
+2026-11-09 04:00:31,842 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI134_G9.tiff (uint32) is not uint16
+2026-11-09 04:00:32,109 INFO steinbock - intensities/ROI134_G9.csv
+2026-11-09 04:00:32,112 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI135_A6.tiff (uint32) is not uint16
+2026-11-09 04:00:32,449 INFO steinbock - intensities/ROI135_A6.csv
+2026-11-09 04:00:32,454 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI136_A4.tiff (uint32) is not uint16
+2026-11-09 04:00:32,739 INFO steinbock - intensities/ROI136_A4.csv
+2026-11-09 04:00:32,742 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI137_J1.tiff (uint32) is not uint16
+2026-11-09 04:00:33,194 INFO steinbock - intensities/ROI137_J1.csv
+2026-11-09 04:00:33,199 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI138_J7.tiff (uint32) is not uint16
+2026-11-09 04:00:33,638 INFO steinbock - intensities/ROI138_J7.csv
+2026-11-09 04:00:33,643 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI139_J13.tiff (uint32) is not uint16
+2026-11-09 04:00:34,103 INFO steinbock - intensities/ROI139_J13.csv
+2026-11-09 04:00:34,108 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI140_J14.tiff (uint32) is not uint16
+2026-11-09 04:00:34,529 INFO steinbock - intensities/ROI140_J14.csv
+2026-11-09 04:00:34,533 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI141_J8.tiff (uint32) is not uint16
+2026-11-09 04:00:34,946 INFO steinbock - intensities/ROI141_J8.csv
+2026-11-09 04:00:34,950 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI142_A5.tiff (uint32) is not uint16
+2026-11-09 04:00:35,372 INFO steinbock - intensities/ROI142_A5.csv
+2026-11-09 04:00:35,378 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI143_C1.tiff (uint32) is not uint16
+2026-11-09 04:00:35,575 INFO steinbock - intensities/ROI143_C1.csv
+2026-11-09 04:00:35,579 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI144_E6.tiff (uint32) is not uint16
+2026-11-09 04:00:36,062 INFO steinbock - intensities/ROI144_E6.csv
+2026-11-09 04:00:36,067 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI145_A3.tiff (uint32) is not uint16
+2026-11-09 04:00:36,283 INFO steinbock - intensities/ROI145_A3.csv
+2026-11-09 04:00:36,287 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI146_A2.tiff (uint32) is not uint16
+2026-11-09 04:00:36,532 INFO steinbock - intensities/ROI146_A2.csv
+2026-11-09 04:00:36,536 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI147_D1.tiff (uint32) is not uint16
+2026-11-09 04:00:36,975 INFO steinbock - intensities/ROI147_D1.csv
+2026-11-09 04:00:36,979 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI148_J2.tiff (uint32) is not uint16
+2026-11-09 04:00:37,445 INFO steinbock - intensities/ROI148_J2.csv
+2026-11-09 04:00:37,448 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI149_J4.tiff (uint32) is not uint16
+2026-11-09 04:00:37,879 INFO steinbock - intensities/ROI149_J4.csv
+2026-11-09 04:00:37,886 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI150_J15.tiff (uint32) is not uint16
+2026-11-09 04:00:38,320 INFO steinbock - intensities/ROI150_J15.csv
+2026-11-09 04:00:38,324 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI151_F2.tiff (uint32) is not uint16
+2026-11-09 04:00:38,790 INFO steinbock - intensities/ROI151_F2.csv
+2026-11-09 04:00:38,795 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI152_J3.tiff (uint32) is not uint16
+2026-11-09 04:00:39,195 INFO steinbock - intensities/ROI152_J3.csv
+2026-11-09 04:00:39,198 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI153_I9.tiff (uint32) is not uint16
+2026-11-09 04:00:39,347 INFO steinbock - intensities/ROI153_I9.csv
+2026-11-09 04:00:39,351 WARNING steinbock.io - Data type of memory-mapped mask file masks/ROI154_F5.tiff (uint32) is not uint16
+2026-11-09 04:00:39,756 INFO steinbock - intensities/ROI154_F5.csv
+
+
+RETURN_CODE
+0

@@ -1,0 +1,226 @@
+CELLPOSE SEGMENTATION
+run_started: 2026-11-08T18:31:05
+host: MacBook-Air-di-ICH.local
+python: 3.14.6
+cellpose: 4.2.1.1
+torch: 2.13.0
+numpy: 2.4.3
+tifffile: 2026.3.3
+model_requested: cpsam_v2
+model_loaded: /Users/rashid/.cellpose/models/cpsam_v2
+gpu: True
+flow_threshold: 0.4
+cellprob_threshold: 0.0
+min_size: 20
+diameter: none (model default)
+normalization: percentile
+nuclear_aggregation: max
+membrane_aggregation: max
+nuclear_channels: Brachiury, DNA1, DNA2
+membrane_channels: CD68, CD31, CD66b, S100, CD3, aSMA
+images_found: 23
+overwrite_existing_masks: False
+
+ROI001_D13.tiff	cells=163	shape=(1000, 1000)
+ROI002_H8.tiff	cells=2459	shape=(1000, 1000)
+ROI003_I5.tiff	cells=2227	shape=(1000, 1000)
+ROI004_B11.tiff	cells=186	shape=(1000, 1000)
+ROI005_E2.tiff	cells=2143	shape=(1000, 1000)
+ROI006_H15.tiff	cells=1458	shape=(1000, 1000)
+ROI007_C2.tiff	cells=152	shape=(1000, 1000)
+ROI008_E15.tiff	cells=2709	shape=(1000, 1000)
+ROI009_J11.tiff	cells=119	shape=(1000, 1000)
+ROI010_H5.tiff	cells=1454	shape=(1000, 1000)
+ROI012_A9.tiff	cells=801	shape=(1000, 1000)
+ROI013_F11.tiff	cells=437	shape=(1000, 1000)
+ROI014_D10.tiff	cells=2717	shape=(1000, 1000)
+ROI015_B13.tiff	cells=1579	shape=(1000, 1000)
+ROI016_A13.tiff	cells=1982	shape=(1000, 1000)
+ROI017_D6.tiff	cells=2850	shape=(1000, 1000)
+ROI018_H4.tiff	cells=2568	shape=(1000, 1000)
+ROI019_E4.tiff	cells=2719	shape=(1000, 1000)
+ROI020_J6.tiff	cells=1081	shape=(1000, 1000)
+ROI021_G1.tiff	cells=1724	shape=(1000, 1000)
+ROI022_H1.tiff	cells=833	shape=(1000, 1000)
+ROI023_G10.tiff	cells=1394	shape=(1000, 1000)
+ROI024_H11.tiff	cells=221	shape=(1000, 1000)
+run_finished: 2026-11-08T18:42:27; errors=0
+
+CELLPOSE SEGMENTATION
+run_started: 2026-11-09T02:25:01
+host: MacBook-Air-di-ICH.local
+python: 3.14.6
+cellpose: 4.2.1.1
+torch: 2.13.0
+numpy: 2.4.3
+tifffile: 2026.3.3
+model_requested: cpsam_v2
+model_loaded: /Users/rashid/.cellpose/models/cpsam_v2
+gpu: True
+flow_threshold: 0.4
+cellprob_threshold: 0.0
+min_size: 20
+diameter: none (model default)
+normalization: percentile
+nuclear_aggregation: max
+membrane_aggregation: max
+nuclear_channels: Brachiury, DNA1, DNA2
+membrane_channels: CD68, CD31, CD66b, S100, CD3, aSMA
+images_found: 153
+overwrite_existing_masks: False
+
+ROI001_D13.tiff	skipped_existing
+ROI002_H8.tiff	skipped_existing
+ROI003_I5.tiff	skipped_existing
+ROI004_B11.tiff	skipped_existing
+ROI005_E2.tiff	skipped_existing
+ROI006_H15.tiff	skipped_existing
+ROI007_C2.tiff	skipped_existing
+ROI008_E15.tiff	skipped_existing
+ROI009_J11.tiff	skipped_existing
+ROI010_H5.tiff	skipped_existing
+ROI012_A9.tiff	skipped_existing
+ROI013_F11.tiff	skipped_existing
+ROI014_D10.tiff	skipped_existing
+ROI015_B13.tiff	skipped_existing
+ROI016_A13.tiff	skipped_existing
+ROI017_D6.tiff	skipped_existing
+ROI018_H4.tiff	skipped_existing
+ROI019_E4.tiff	skipped_existing
+ROI020_J6.tiff	skipped_existing
+ROI021_G1.tiff	skipped_existing
+ROI022_H1.tiff	skipped_existing
+ROI023_G10.tiff	skipped_existing
+ROI024_H11.tiff	skipped_existing
+ROI025_C7.tiff	cells=2191	shape=(1000, 1000)
+ROI026_C4.tiff	cells=1317	shape=(1000, 1000)
+ROI027_B5.tiff	cells=2086	shape=(1000, 1000)
+ROI028_J8.tiff	cells=1181	shape=(1000, 1000)
+ROI029_K5.tiff	cells=616	shape=(1000, 1000)
+ROI030_K6.tiff	cells=10	shape=(1000, 1000)
+ROI031_E11.tiff	cells=156	shape=(1000, 1000)
+ROI032_C15.tiff	cells=1012	shape=(1000, 1000)
+ROI033_B15.tiff	cells=845	shape=(1000, 1000)
+ROI034_C12.tiff	cells=1662	shape=(1000, 1000)
+ROI035_G13.tiff	cells=1508	shape=(1000, 1000)
+ROI036_F3.tiff	cells=63	shape=(1000, 1000)
+ROI037_F6.tiff	cells=1516	shape=(1000, 1000)
+ROI038_I10.tiff	cells=1895	shape=(1000, 1000)
+ROI039_F10.tiff	cells=2070	shape=(1000, 1000)
+ROI040_B9.tiff	cells=1489	shape=(1000, 1000)
+ROI041_B10.tiff	cells=1431	shape=(1000, 1000)
+ROI042_B6.tiff	cells=2195	shape=(1000, 1000)
+ROI043_A7.tiff	cells=3446	shape=(1000, 1000)
+ROI044_K1.tiff	cells=199	shape=(1000, 1000)
+ROI045_B4.tiff	cells=865	shape=(1000, 1000)
+ROI046_C5.tiff	cells=1522	shape=(1000, 1000)
+ROI047_D3.tiff	cells=30	shape=(1000, 1000)
+ROI048_E14.tiff	cells=39	shape=(1000, 1000)
+ROI049_F8.tiff	cells=2077	shape=(1000, 1000)
+ROI050_G5.tiff	cells=1823	shape=(1000, 1000)
+ROI051_H6.tiff	cells=1636	shape=(1000, 1000)
+ROI052_I4.tiff	cells=1171	shape=(1000, 1000)
+ROI053_J5.tiff	cells=1528	shape=(1000, 1000)
+ROI054_K2.tiff	cells=549	shape=(1000, 1000)
+ROI055_H7.tiff	cells=2109	shape=(1000, 1000)
+ROI056_G7.tiff	cells=1209	shape=(1000, 1000)
+ROI057_F13.tiff	cells=1379	shape=(1000, 1000)
+ROI058_H14.tiff	cells=146	shape=(1000, 1000)
+ROI059_C8.tiff	cells=1522	shape=(1000, 1000)
+ROI060_D4.tiff	cells=2265	shape=(1000, 1000)
+ROI061_D15.tiff	cells=1122	shape=(1000, 1000)
+ROI062_G14.tiff	cells=67	shape=(1000, 1000)
+ROI063_J12.tiff	cells=1360	shape=(1000, 1000)
+ROI064_H12.tiff	cells=2117	shape=(1000, 1000)
+ROI065_D8.tiff	cells=999	shape=(1000, 1000)
+ROI066_C6.tiff	cells=3407	shape=(1000, 1000)
+ROI067_B8.tiff	cells=1664	shape=(1000, 1000)
+ROI068_A8.tiff	cells=1098	shape=(1000, 1000)
+ROI069_H2.tiff	cells=903	shape=(1000, 1000)
+ROI070_G2.tiff	cells=886	shape=(1000, 1000)
+ROI071_G11.tiff	cells=137	shape=(1000, 1000)
+ROI072_D12.tiff	cells=2127	shape=(1000, 1000)
+ROI073_A14.tiff	cells=55	shape=(1000, 1000)
+ROI074_A15.tiff	cells=989	shape=(1000, 1000)
+ROI075_E1.tiff	cells=907	shape=(1000, 1000)
+ROI076_K4.tiff	cells=0	shape=(1000, 1000)
+ROI077_J10.tiff	cells=1386	shape=(1000, 1000)
+ROI078_I15.tiff	cells=718	shape=(1000, 1000)
+ROI079_F1.tiff	cells=492	shape=(1000, 1000)
+ROI080_D7.tiff	cells=2467	shape=(1000, 1000)
+ROI081_A10.tiff	cells=2168	shape=(1000, 1000)
+ROI082_A11.tiff	cells=30	shape=(1000, 1000)
+ROI083_A1.tiff	cells=103	shape=(495, 1000)
+ROI084_I3.tiff	cells=1	shape=(1000, 1000)
+ROI085_D11.tiff	cells=102	shape=(1000, 1000)
+ROI086_C11.tiff	cells=482	shape=(1000, 1000)
+ROI087_C14.tiff	cells=128	shape=(1000, 1000)
+ROI088_D14.tiff	cells=134	shape=(1000, 1000)
+ROI089_E13.tiff	cells=872	shape=(1000, 1000)
+ROI090_F14.tiff	cells=109	shape=(1000, 1000)
+ROI091_F15.tiff	cells=583	shape=(1000, 1000)
+ROI092_G15.tiff	cells=1404	shape=(1000, 1000)
+ROI093_I14.tiff	cells=2	shape=(1000, 1000)
+ROI094_I13.tiff	cells=1856	shape=(1000, 1000)
+ROI095_E5.tiff	cells=679	shape=(1000, 1000)
+ROI096_E9.tiff	cells=1876	shape=(1000, 1000)
+ROI097_F9.tiff	cells=821	shape=(1000, 1000)
+ROI098_B12.tiff	cells=2170	shape=(1000, 1000)
+ROI099_E3.tiff	cells=41	shape=(1000, 1000)
+ROI100_G8.tiff	cells=1631	shape=(1000, 1000)
+ROI101_G6.tiff	cells=1360	shape=(1000, 1000)
+ROI102_D2.tiff	cells=628	shape=(1000, 1000)
+ROI103_B1.tiff	cells=481	shape=(1000, 1000)
+ROI104_B14.tiff	cells=77	shape=(1000, 1000)
+ROI105_C13.tiff	cells=569	shape=(1000, 1000)
+ROI106_F12.tiff	cells=1015	shape=(1000, 1000)
+ROI107_I12.tiff	cells=1483	shape=(1000, 1000)
+ROI108_H9.tiff	cells=708	shape=(1000, 1000)
+ROI109_I8.tiff	cells=488	shape=(1000, 1000)
+ROI110_I7.tiff	cells=889	shape=(1000, 1000)
+ROI111_I6.tiff	cells=921	shape=(1000, 1000)
+ROI112_F4.tiff	cells=1965	shape=(1000, 1000)
+ROI113_F7.tiff	cells=1696	shape=(1000, 1000)
+ROI114_D5.tiff	cells=1043	shape=(1000, 1000)
+ROI115_G4.tiff	cells=2049	shape=(1000, 1000)
+ROI116_G3.tiff	cells=36	shape=(1000, 1000)
+ROI117_G2.tiff	cells=141	shape=(1000, 1000)
+ROI118_H3.tiff	cells=229	shape=(1000, 1000)
+ROI119_A12.tiff	cells=671	shape=(1000, 1000)
+ROI120_H13.tiff	cells=1113	shape=(1000, 1000)
+ROI121_G12.tiff	cells=2633	shape=(1000, 1000)
+ROI122_H10.tiff	cells=1252	shape=(1000, 1000)
+ROI123_I11.tiff	cells=94	shape=(1000, 1000)
+ROI124_C9.tiff	cells=526	shape=(1000, 1000)
+ROI125_B2.tiff	cells=1853	shape=(1000, 1000)
+ROI126_C3.tiff	cells=704	shape=(1000, 1000)
+ROI127_B7.tiff	cells=2256	shape=(1000, 1000)
+ROI128_B3.tiff	cells=357	shape=(1000, 1000)
+ROI129_E7.tiff	cells=1969	shape=(1000, 1000)
+ROI130_I2.tiff	cells=662	shape=(1000, 1000)
+ROI131_I1.tiff	cells=1606	shape=(1000, 1000)
+ROI132_E8.tiff	cells=1469	shape=(1000, 1000)
+ROI133_F9.tiff	cells=138	shape=(1000, 1000)
+ROI134_G9.tiff	cells=548	shape=(637, 1000)
+ROI135_A6.tiff	cells=1098	shape=(704, 1066)
+ROI136_A4.tiff	cells=1059	shape=(590, 1066)
+ROI137_J1.tiff	cells=1739	shape=(1000, 1000)
+ROI138_J7.tiff	cells=884	shape=(1000, 1000)
+ROI139_J13.tiff	cells=2018	shape=(1000, 1000)
+ROI140_J14.tiff	cells=370	shape=(1000, 1000)
+ROI141_J8.tiff	cells=1374	shape=(896, 1000)
+ROI142_A5.tiff	cells=1392	shape=(835, 1109)
+ROI143_C1.tiff	cells=779	shape=(1113, 384)
+ROI144_E6.tiff	cells=1084	shape=(1367, 805)
+ROI145_A3.tiff	cells=110	shape=(554, 914)
+ROI146_A2.tiff	cells=648	shape=(554, 998)
+ROI147_D1.tiff	cells=439	shape=(1026, 993)
+ROI148_J2.tiff	cells=923	shape=(1026, 993)
+ROI149_J4.tiff	cells=446	shape=(1000, 1000)
+ROI150_J15.tiff	cells=1048	shape=(1000, 1000)
+ROI151_F2.tiff	cells=1615	shape=(1000, 1000)
+ROI152_J3.tiff	cells=100	shape=(1000, 1000)
+ROI153_I9.tiff	cells=153	shape=(654, 571)
+ROI154_F5.tiff	cells=114	shape=(1000, 1000)
+run_finished: 2026-11-09T02:58:45; errors=0
+

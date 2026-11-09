@@ -1,0 +1,25 @@
+# Core Python packages used by the dynamic IMC workflow scripts and notebooks.
+# Install from the workflow directory with:
+#   .venv/bin/python -m pip install -r requirements.txt
+
+numpy
+tifffile
+pandas<3,>=2.1.0
+matplotlib
+
+# Notebook execution support.
+ipykernel
+
+# Installed workflow-support packages used for downstream image, graph,
+# statistics, plotting, and AnnData compatibility. Some operations are executed
+# through Steinbock rather than imported directly by every Python script.
+scipy
+scikit-image
+networkx
+seaborn
+anndata
+
+# Manual review release (scripts/apply_manual_review.py).
+shapely>=2
+rasterio
+openpyxl
